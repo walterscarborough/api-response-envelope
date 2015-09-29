@@ -16,7 +16,7 @@ module.exports = {
 
         return {
             'status': 'success',
-            'results': data,
+            'result': data,
             'message': '',
         };
     },
@@ -35,7 +35,7 @@ module.exports = {
 
         return {
             'status': 'error',
-            'results': [],
+            'result': [],
             'message': message,
         };
     },

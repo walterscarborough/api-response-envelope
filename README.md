@@ -7,7 +7,7 @@ The format is as follows:
 ```
 {
     "status": {success} | {error},
-    "results": {array},
+    "result": {array},
     "message": {string}
 }
 

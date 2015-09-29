@@ -17,7 +17,7 @@ describe('API Response Envelope Unit Tests', function() {
             responseEnvelope, 
             {
                 'status': 'success',
-                'results': [
+                'result': [
                     'Nirvana',
                     'Soundgarden',
                 ],
@@ -36,7 +36,7 @@ describe('API Response Envelope Unit Tests', function() {
             responseEnvelope, 
             {
                 'status': 'success',
-                'results': [],
+                'result': [],
                 'message': '',
             }
         );
@@ -52,7 +52,7 @@ describe('API Response Envelope Unit Tests', function() {
             responseEnvelope, 
             {
                 'status': 'error',
-                'results': [],
+                'result': [],
                 'message': 'An error has occurred',
             }
         );
@@ -68,7 +68,7 @@ describe('API Response Envelope Unit Tests', function() {
             responseEnvelope, 
             {
                 'status': 'error',
-                'results': [],
+                'result': [],
                 'message': '',
             }
         );
