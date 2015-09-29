@@ -1,6 +1,6 @@
 {
   "name": "api-response-envelope",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps an API output response in an envelope with 'status', 'message', and 'results' keys.",
   "main": "index.js",
   "scripts": {
